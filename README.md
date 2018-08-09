@@ -18,13 +18,6 @@ Interactive lane finding algorithm that runs in real time at about 10-15fps
 8. Use polynomial fit to create curved lanes
 9. Warp image back to original shape and overlay on original image
 
-## Comments on algorithm
-While this algorithm can find lanes, it is not very robust.  
-The example above shows that the algorithm works well on straight, high contrast roads.  
-However, as soon as curves appear the algorithm breaks down.  
-Moreover, when the colour of the road changes or shadows appear the algorithm struggles.  
-Tweaking of parameters can combat this, however the algorithm cannot figure this out on its own
-
 ## Prerequisites 
 1. GTA 5 + Mods
    * Script Hook V
@@ -47,4 +40,10 @@ Recommended to use on dual monitors
    * __Lane Finding Process:__ This windows shows some of the process of finding the lanes
    * __Settings:__ This window allows control of some settings used to find the lanes such as image threshold and HSV thresholds
    
+## Comments on algorithm
+While this algorithm can find lanes, it is not very robust.  
+The example above shows that the algorithm works well on straight, high contrast roads.  
+However, as soon as curves appear the algorithm breaks down.  
+Moreover, when the colour of the road changes or shadows appear the algorithm struggles.  
+Tweaking of parameters can combat this, however the algorithm cannot figure this out on its own
 
