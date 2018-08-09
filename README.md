@@ -22,7 +22,7 @@ Interactive lane finding algorithm that runs in real time at about 10-15fps
 While this algorithm can find lanes, it is not very robust.  
 The example above shows that the algorithm works well on straight, high contrast roads.  
 However, as soon as curves appear the algorithm breaks down.  
-Moreover, when the colour of the road changes the algorithm struggles.  
+Moreover, when the colour of the road changes or shadows appear the algorithm struggles.  
 Tweaking of parameters can combat this, however the algorithm cannot figure this out on its own
 
 ## Prerequisites 
@@ -37,7 +37,7 @@ Recommended to use on dual monitors
 2. Run GTA_LaneFinding.py
 3. Three Windows will appear
    * __Lane:__ 
-      * This window shows Region of interest which can be moved by clicking and moving the red spheres
+      * This window shows 'Region Of Interest' which can be moved by clicking and moving the red spheres
    * __Lane Finding Process:__ 
       * This windows shows some of the process of finding the lanes
    * __Settings:__
