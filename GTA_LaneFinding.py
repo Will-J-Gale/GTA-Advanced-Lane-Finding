@@ -72,7 +72,6 @@ def mouseCallback(event, x, y, flags, params):
 def onchange(x):
     pass
 
-SCREEN_NAME = "Self Driving Car"
 SCREEN_REGION = ((1920//2) - (1280//2), (1080//2) - (720//2), (1920//2) + (1280//2), (1080//2) + (720//2))
 
 width = SCREEN_REGION[2] - SCREEN_REGION[0] + 1
