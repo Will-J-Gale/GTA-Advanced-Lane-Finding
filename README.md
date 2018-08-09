@@ -1,5 +1,5 @@
 # GTA5-Lane-Finding
-Interactive lane finding algorithm that runs in real time at about 10-15fps
+Interactive lane finding algorithm that runs in real time at about ~10fps
 
 ## Found lane
 ![alt text](https://github.com/Will-J-Gale/GTA-Lane-Finding/blob/master/Images/Lane%20Overlay%20Half%20Size.gif)  
