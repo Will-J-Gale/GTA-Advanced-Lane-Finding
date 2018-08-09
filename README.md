@@ -36,11 +36,8 @@ Recommended to use on dual monitors
 1. Run GTA5 in windowed mode 1280x720
 2. Run GTA_LaneFinding.py
 3. Three Windows will appear
-   * __Lane:__ 
-      * This window shows 'Region Of Interest' which can be moved by clicking and moving the red spheres
-   * __Lane Finding Process:__ 
-      * This windows shows some of the process of finding the lanes
-   * __Settings:__
-      * This window allows control of some settings used to find the lanes such as image threshold and HSV thresholds
+   * __Lane:__ This window shows 'Region Of Interest' which can be moved by clicking and moving the red spheres
+   * __Lane Finding Process:__ This windows shows some of the process of finding the lanes
+   * __Settings:__ This window allows control of some settings used to find the lanes such as image threshold and HSV thresholds
    
 
