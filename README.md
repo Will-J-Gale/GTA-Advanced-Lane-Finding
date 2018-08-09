@@ -36,7 +36,7 @@ Recommended to use on dual monitors
 2. Find car and enable Hood Camera
 3. Run GTA_LaneFinding.py
 4. Three Windows will appear
-   * __Lane:__ This window shows 'Region Of Interest' which can be moved by clicking and moving the red spheres
+   * __Lane:__ This window shows 'Region of Interest' which can be moved by clicking and moving the red spheres
    * __Lane Finding Process:__ This windows shows some of the process of finding the lanes
    * __Settings:__ This window allows control of some settings used to find the lanes such as image threshold and HSV thresholds
    
@@ -44,8 +44,9 @@ Recommended to use on dual monitors
 While this algorithm can find lanes, it is not very robust.  
 The example above shows that the algorithm works well on straight, high contrast roads.  
 However, as soon as curves appear the algorithm breaks down.  
-Moreover, when the colour of the road changes or shadows appear the algorithm struggles.  
-Tweaking of parameters can combat this, however the algorithm cannot figure this out on its own  
+Moreover, when the colour of the road changes or shadows appear the algorithm struggles. 
+Tweaking of parameters can combat this, however the algorithm cannot figure this out on its own.  
+Because of the static placement of the 'Region of Interest' fast left/right movement is problematic.  
 
 This project was used to create the training data for https://github.com/Will-J-Gale/GTA-Fully-Convolutional-Lane-Finding
 
