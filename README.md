@@ -45,5 +45,7 @@ While this algorithm can find lanes, it is not very robust.
 The example above shows that the algorithm works well on straight, high contrast roads.  
 However, as soon as curves appear the algorithm breaks down.  
 Moreover, when the colour of the road changes or shadows appear the algorithm struggles.  
-Tweaking of parameters can combat this, however the algorithm cannot figure this out on its own
+Tweaking of parameters can combat this, however the algorithm cannot figure this out on its own  
+
+This project was used to create the training data for https://github.com/Will-J-Gale/GTA-Fully-Convolutional-Lane-Finding
 
