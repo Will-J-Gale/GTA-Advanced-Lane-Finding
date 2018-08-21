@@ -10,7 +10,7 @@ https://github.com/Will-J-Gale/GTA-Fully-Convolutional-Lane-Finding
 ![alt text](https://github.com/Will-J-Gale/GTA-Lane-Finding/blob/master/Images/Visualisation%20HALF%20SIZE.gif)  
 
 ### Algorithm Steps:
-1. Cut out reigion of interest
+1. Cut out region of interest
 2. Warp image so lanes are parallel
 3. Threshold and find edges of image
 4. Add previous images to try and fill in gaps of dashes lane lines
