@@ -1,6 +1,6 @@
 # GTA5-Lane-Finding
 Interactive lane finding algorithm that runs in real time at about ~10fps  
-A more robust version is available here:  
+This project was used to create the training data for:  
 https://github.com/Will-J-Gale/GTA-Fully-Convolutional-Lane-Finding
 
 ## Found lane
@@ -49,6 +49,4 @@ However, as soon as curves appear the algorithm breaks down.
 Moreover, when the colour of the road changes or shadows appear the algorithm struggles. 
 Tweaking of parameters can combat this, however the algorithm cannot figure this out on its own.  
 Because of the static placement of the 'Region of Interest' fast left/right movement is problematic.  
-
-This project was used to create the training data for https://github.com/Will-J-Gale/GTA-Fully-Convolutional-Lane-Finding
 
